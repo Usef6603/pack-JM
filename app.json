@@ -1,7 +1,7 @@
 {
   "name": "JMTHON",
   "description": "مرحبا بكم في سورس جمثون | @JMTHON",
-  "logo": "https://telegra.ph/file/4f06b1b5be9c415ca992b.jpg",
+  "logo": "",
   "keywords": [
     "plugin",
     "modular",
@@ -36,9 +36,9 @@
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "أتركة كما هوة",
+      "description": "لا تغيره",
       "value": ".",
-      "required": false
+      "required": true
     },
     "ENV": {
       "description": "أتركة كما هوة",
@@ -46,24 +46,24 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "أتركة فارغ",
+      "description": "هنا ضع ايبي كي هيروكو",
       "value": "",
-      "required": false
+      "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "أتركة فارغ",
+      "description": "اول اسم وضعته اسم التطبيق",
       "value": "",
-      "required": false
+      "required": true
     },
     "TZ": {
       "description": "موقعك الحالي",
       "value": "Asia/Baghdad",
-      "required": false
+      "required": true
     },
     "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
+      "description": "رمز السورس لا تغيره",
       "value": "jmthon-ar",
-      "required": false
+      "required": true
     }
   },
   "addons": [{
