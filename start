@@ -3,10 +3,10 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "jmthon-ar" ]]
+    if [[ $UPSTREAM_REPO == "El7zombymo" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTS1USE9OL2FyY2hpdmUvbWFzdGVyLnppcA=" | base64 -d
-    elif [[ $UPSTREAM_REPO == "jmthon-ar" ]]
+    elif [[ $UPSTREAM_REPO == "El7zombymo" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTS1USE9OL2FyY2hpdmUvbWFzdGVyLnppcA=" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
